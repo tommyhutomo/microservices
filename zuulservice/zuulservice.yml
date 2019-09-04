@@ -1,6 +1,6 @@
 #zuul.ignored-services: "*"
-zuul.prefix:  /apio
-zuul.routes.organizationservice: /organizations/**
+zuul.prefix:  /api
+zuul.routes.organizationservice: /organization-api/**
 zuul.routes.licensingservice: /licensing/**
 zuul.routes.authenticationservice: /auth/**
 
